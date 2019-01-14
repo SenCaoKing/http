@@ -1,0 +1,19 @@
+{
+    "name": "sen-cao-king/http",
+    "description": "The Http package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SenCaoKing",
+            "email": "1134349927@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sen\\Http\\": "src/"
+        }
+    }
+}
