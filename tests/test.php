@@ -1,7 +1,9 @@
 <?php
 
-include_once __DIR__ . '../src/Client.php';
-include_once __DIR__ . '../src/Response.php';
+// require __DIR__ . '/../vendor/autoload.php';
+
+require __DIR__ . '/../src/ClassLoader.php';
+\Sen\Http\ClassLoader::register();
 
 $client = new \Sen\Http\Client();
 
