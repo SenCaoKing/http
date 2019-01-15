@@ -1,14 +1,14 @@
-# Sen\Http
+# Http
 
 一个简单易用的PHP HTTP 客户端, 基于cURL封装
 
-示例
+## 示例
 ```php
 <?php
 
 // require __DIR__ . '/../vendor/autoload.php';
 
-require __DIR__ . '/../src/ClassLoader.php';
+require __DIR__ . '/src/ClassLoader.php';
 \Sen\Http\ClassLoader::register();
 
 $client = new \Sen\Http\Client();
